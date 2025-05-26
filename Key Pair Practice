@@ -1,0 +1,12 @@
+colors = {"apple": "red", "pear": "green", "banana": "yellow", "peach": "pink"}
+
+# This is to modify key
+colors["apple"] = "green"
+
+# Loop though keys
+for key in colors:
+    print([key])
+
+# Loop through values
+for key in colors:
+    print(colors[key])
