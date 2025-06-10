@@ -1,0 +1,27 @@
+# Working with dictionaries
+alien_0 = {'color': 'green',
+           'points': 5}
+print(alien_0['color'])
+print(alien_0['points'])
+
+# Accessing values in dictionaries
+new_points = alien_0['points']
+print(f"You earned {new_points} points")
+
+# Adding new key value pairs to dictionary
+alien_0['x_position'] = 0
+alien_0['y_position'] = 25
+print(alien_0)
+
+# Starting with an Empty Dictionary
+alien_1 = {}
+alien_1['color'] = 'pink'
+alien_1['points'] = '3'
+print(alien_1)
+
+# Modifying Values in a Dictionary
+alien_0 = {'color': 'green',}
+print(f"The alien is {alien_0['color']}.")
+
+alien_0['color'] = 'yellow'
+print(f"The alien color is now {alien_0['color']}.")
